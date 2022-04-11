@@ -11,3 +11,9 @@ The application makes use of @ControllerAdvice, an annotation-driven interceptor
 | POST  |  /api/cars | 201 (Created)  | One Car resource is created   |   |
 | PUT  | /api/cars/{id}  | 200 (OK)  | Car resource is updated  |   |
 | DELETE  | /api/cars/{id}  | 204 (No Content)  | Car resource is deleted  |   |
+
+
+Examples
+![img_1.png](img_1.png)
+![img_2.png](img_2.png)
+![img_3.png](img_3.png)

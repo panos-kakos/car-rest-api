@@ -75,7 +75,7 @@ public class CarsRestController {
      * @return
      * @throws EntityNotFoundException
      */
-    @DeleteMapping("/cars/id")
+    @DeleteMapping("/cars/{id}")
     public ResponseEntity<Void> deleteCar( @PathVariable Long id) throws EntityNotFoundException{
             carService.deleteById(id);
             return new ResponseEntity<>(HttpStatus.NO_CONTENT);
