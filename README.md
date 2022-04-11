@@ -2,7 +2,7 @@
 ***
 The application makes use of @ControllerAdvice, an annotation-driven interceptor that is handling exceptions across the application.
 ***
-###Availale operations and responses
+### Availale operations and responses
 
 | HTTP Method  | Path  | Status Code  | Desc.  |
 |---|---|---|---|
